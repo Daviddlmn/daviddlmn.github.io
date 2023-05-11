@@ -1,0 +1,312 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Righteous', cursive;
+
+}
+
+header {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(136, 100, 0) 22%, rgb(255, 255, 255) 32%, rgb(255, 255, 255) 77%, rgb(134, 103, 0) 88%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 20px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+
+header nav a img {
+    width: 15rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+header nav a img:hover {
+    
+    transition: 1.5s ease;
+    border-radius: 30rem;
+    opacity: 30%;
+}
+
+header nav ul {
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+
+}
+
+header nav ul li {
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: rgba(177, 121, 0, 0.575);
+    font-size: 43px;
+    transition: 1.5s ease;
+}
+
+main {
+    text-align: center;
+    font-size: 25px;
+}
+
+main img {
+    width: 35%;
+}
+
+main p {
+    text-decoration: underline;
+}
+
+main a {
+    text-decoration: none;
+    color: brown
+}
+
+main a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 1.5s ease;
+}
+
+.slider-container {
+    width: 70%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider {
+    list-style: none;
+    margin-top: 5rem;
+    margin-right: 40rem;
+    padding: 0;
+    width: 3000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: slide 12s infinite;
+}
+
+.slider ul {
+    display: flex;
+}
+
+.slider li {
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+
+.slider a {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: brown
+}
+
+.slider a:hover {
+    background-color: #333;
+}
+
+main section ul li img {
+    width: 300px;
+    height: 120px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-500px);
+    }
+
+    45% {
+        transform: translateX(-500px);
+    }
+
+    50% {
+        transform: translateX(-1000px);
+    }
+
+    70% {
+        transform: translateX(-1000px);
+    }
+
+    75% {
+        transform: translateX(-1500px);
+    }
+
+    95% {
+        transform: translateX(-1500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+main section.testimonios {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(124, 124, 124, 1) 18%, rgba(0, 0, 0, 1) 100%);
+}
+
+main section.testimonios div.dest {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+main section.testimonios div.dest div {
+    width: 40%;
+    padding: 2rem;
+}
+
+main section.testimonios div.dest div img.estrellas {
+    width: 15%;
+    margin-left: 8rem;
+}
+
+main section.testimonios div.dest div p {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+}
+
+main div.contenedor {
+    display: flex;
+    justify-content: center;
+    margin: 6rem;
+}
+
+main div.contenedor section ul li {
+    text-decoration: underline;
+    list-style: none;
+    padding: 1rem;
+}
+
+main div.contenedor section.contacto form {
+    width: 35%;
+    margin-left: 15rem;
+
+}
+
+main section.beneficios {
+    width: 40%;
+
+}
+
+main section.contacto {
+    width: 40%;
+}
+main video{
+    width: 95%;
+    justify-content: center;
+    border-radius: 10px;
+}
+main section.armas{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 9rem;
+}
+main section.armas div{
+    padding: 1rem;
+
+}
+main section.armas div img{
+    width: 400px;
+    height: 150px;
+    opacity:70%;
+}
+main section.armas div img:hover{
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+main section.armas div:last-child{
+    width: 100%;
+    margin-left: 35rem;
+    margin-bottom: 8rem;
+}
+
+{
+    padding-bottom: ;
+}
+footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(163,124,0,1) 100%, rgba(0,0,0,1) 100%);
+    border-radius: 20px;
+    border-radius: 30px;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div ul li {
+    list-style-type: none;
+    padding: 0.6rem;
+}
+
+footer div ul {
+    width: 30%;
+}
+
+footer div ul li span a {
+    color: rgb(0, 0, 0);
+}
+
+footer div ul li span a:hover {
+    background-color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    border-radius: 20px;
+}
+
+footer div ul span {
+    color: rgb(0, 0, 0);
+}
+
+footer div ul span:hover {
+    background-color: rgb(241, 197, 0);
+    color: rgb(0, 0, 0);
+    padding: 0.4rem;
+    border-radius: 20px;
+    transition: 1.5s ease;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer div ul li a:hover {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(201, 130, 0);
+    transition: 1.5s ease;
+}
